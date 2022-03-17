@@ -15,8 +15,8 @@ body {
    display: inline-block;
    position: relative;
    overflow: hidden !important;
-   width: 635px;
-   height: 400px;
+   width: 560px;
+   height: 385px;
    padding-left: 10px;
    padding-right: 10px;
    padding-top: 5px;
@@ -25,7 +25,7 @@ body {
 
 .wrapper{
    text-align: center;
-   width: 1205px;
+   width: 1200px;
    margin-top: 60px;
    margin-bottom: 30px;
    margin-left: 10%;
@@ -56,8 +56,9 @@ button {
    border-radius: 8px;  
    color: white;
    background-color: #9acd3270;
-   font-size: 30px;
-   margin-left: 10%;
+   font-size: 26px;
+   margin-left: 15%;
+   margin-right: 15%;
    
 }
 
@@ -74,8 +75,8 @@ button {
   .wrapper {
    margin-top:  10px;
   
-   margin-right: 5px;
-   margin-left: 5px;
+   margin-right: 10%;
+   margin-left: 10%;
   
    
 }
@@ -83,8 +84,7 @@ button {
    text-align: center;
 }*/
 .iframe-video {
-   width: 500px;
-   height: 360px;
+   
    padding-left: 10px;
    padding-right: 10px;
    padding-top: 5px;
