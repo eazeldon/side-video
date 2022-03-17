@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
       integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">-->
 
-   <title>Split-Video</title>
+   <title>Side-Video</title>
 
 
    <script data-original-src="/s/player/2fd2ad45/player_ias.vflset/en_GB/annotations_module.js"
@@ -48,7 +48,8 @@
                <br>
                <div id="video1" class="player side1">
 
-                  <video id="video-player1" class="player" width="560" height="385" control="controls" loop autoplay>
+                  <video id="video-player1" class="player" width="560" height="385" control="controls" loop=1 autoplay=1
+                     autopause=0 ?muted=1>
                      <source src="assets/video/side-2.mp4">
                   </video>
 
@@ -65,7 +66,8 @@
                <br>
                <div id="video2" class="player side2">
 
-                  <video id="video-player2" class="player" width="560" height="385" control="controls" loop autoplay>
+                  <video id="video-player2" class="player" width="560" height="385" control="controls" loop=1 autoplay=1
+                     autopause=0 ?muted=1>
                      <source src="assets/video/side-2.mp4">
                   </video>
 
@@ -250,34 +252,3 @@
 </body>
 
 </html>
-<!-------------
-
-
-   <div class="row">
-         <div class="iframe-video">
-
-            <div class="col-6">
-               <div id="video1" class="player text-center">
-                  <video id="video-sanbox" width="635" height="400" controls loop autoplay>
-                     <source src="assets/video/side-video.mp4">
-                  </video>
-               </div>
-            </div>
-         </div>
-       
-         <div class="col-6">
-            <div class="iframe-video">
-               <div id="video2" class="player text-center">
-
-                  <video id="video-sanbox2" width="635" height="400" controls loop autoplay>
-                     <source src="assets/video/side-video.mp4">
-                  </video>
-
-               </div>
-            </div>
-         </div>
-      </div>
-
-
-       <source src="assets/video/side-2.mp4">
---------------->
